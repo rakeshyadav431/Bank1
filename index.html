@@ -17,11 +17,20 @@
 
 <body>
 
-<div id="login">
-  <h2>Login</h2>
-  <input id="email" placeholder="Email">
-  <input id="password" type="password" placeholder="Password">
+<div id="loginPage">
+  <h2>🔐 Bank Login</h2>
+
+  <input type="text" id="username" placeholder="Username"><br><br>
+  <input type="password" id="password" placeholder="Password"><br><br>
+
   <button onclick="login()">Login</button>
+
+  <p id="error" style="color:red;"></p>
+</div>
+
+<div id="dashboard" style="display:none;">
+  <h2>🏦 Welcome Admin</h2>
+  <!-- Your existing dashboard code -->
 </div>
 
 <div id="app" style="display:none">
